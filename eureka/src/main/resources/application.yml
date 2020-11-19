@@ -1,0 +1,11 @@
+server:
+  port: 9990
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9990/eureka
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    eviction-interval-timer-in-ms: 60000
+    enable-self-preservation: false
