@@ -4,7 +4,6 @@
 /eureka/target/
 /eureka/eureka.iml
 /provider/target/
-/provider/pom.xml
-/restTemplate/target/
+/provider/provider.iml
 /restTemplate/restTemplate.iml
 /springcould.iml

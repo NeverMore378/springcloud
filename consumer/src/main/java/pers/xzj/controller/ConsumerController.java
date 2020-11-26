@@ -24,24 +24,7 @@ public class ConsumerController {
         return restTemplate.getForObject("http://localhost:9991/hello",String.class);
     }
 
-    @GetMapping("/fuck")
-    public String test3(){
-        HashMap<String, String> ma = new HashMap<>();
-        for (int i = 0; i < 1000; i++) {
-            ma.put("authCode",i+"");
-            restTemplate.postForObject("http://158.223.114.59:9060/eagle-app-demo/easy/sample.do",ma,String.class);
-        }
-        return "success";
-    }
-    @GetMapping("/fuck2")
-    public String test4(){
-        HashMap<String, String> ma = new HashMap<>();
-        for (int i = 0; i < 1000; i++) {
-            ma.put("authCode",i+2000+"");
-            restTemplate.postForObject("http://158.223.114.59:9060/eagle-app-demo/easy/sample.do",ma,String.class);
-        }
-        return "success";
-    }
+
 
     @GetMapping("/test2")
     public String test2(){
