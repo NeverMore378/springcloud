@@ -1,5 +1,5 @@
 # springcloud
-Springcloud使用Eureka作为注册中心，简单的服务提供者和消费者实现服务的注册与发现
+Spring Cloud使用Eureka作为注册中心，简单的服务提供者和消费者实现服务的注册与发现
 # RestTemplate 
 直接使用 RestTemplate 
 # feign
